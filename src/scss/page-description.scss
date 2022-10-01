@@ -1,0 +1,71 @@
+.banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  color: $white;
+  text-align: center;
+
+  @include image("banner.png");
+
+  &-offer {
+    margin: 31px 20px 17px;
+
+    font-size: 16px;
+  }
+
+  &-access {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    min-height: 50px;
+
+    &-name,
+    &-email {
+      min-width: 246px;
+      min-height: 46px;
+      padding: 0;
+      padding-left: 21px;
+
+      background-color: transparent;
+      border: 2px solid $grey;
+      border-radius: 3px;
+
+      &::placeholder {
+        color: $white;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+
+    &-button {
+      grid-column: span 2;
+      min-height: 15px;
+      padding: 21px;
+
+      font-size: 13.3px;
+      line-height: 15px;
+      text-align: center;
+      text-transform: uppercase;
+
+      background-color: $green;
+      border: 0;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    padding-top: 250px;
+
+    &-access {
+      min-width: 100%;
+
+      * {
+        grid-column: span 2;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

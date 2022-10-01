@@ -1,0 +1,95 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  color: $white;
+
+  .card {
+    min-width: 318px;
+    padding: 0 1.5rem;
+
+    border-radius: 1rem;
+
+    &-name {
+      margin-top: 24px;
+
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    .flex-start {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    &-price {
+      margin-top: 180px;
+      margin-bottom: 30px;
+
+      font-size: 32px;
+      text-transform: uppercase;
+
+      &-count {
+        font-size: 2em;
+      }
+
+      &-currency {
+        padding: 15px;
+      }
+    }
+
+    &-button {
+      min-width: 272px;
+      padding: 21px;
+
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      text-transform: uppercase;
+
+      background-color: transparent;
+      border: 0;
+      border: 1px solid $white;
+      border-radius: 5px;
+    }
+
+    &-description {
+      margin: 64px 0;
+
+      font-size: 12.8px;
+      text-align: center;
+    }
+  }
+
+  .free-sub {
+    @include image("subscribe_1.png");
+  }
+
+  .standard-sub {
+    @include image("subscribe_2.png");
+  }
+
+  .premium-sub {
+    @include image("subscribe_3.png");
+  }
+}
+
+.extra-info {
+  min-width: 318px;
+  margin-top: 45px;
+
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 570px) {
+  .cards .card-name {
+    margin-top: 16px;
+
+    font-size: 16px;
+  }
+}
