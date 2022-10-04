@@ -6,10 +6,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница артиста Alsecode</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+  <header>
+    <div class="container white main-container flex flex-center flex-wrap">
+      <div class="flex flex-wrap navigation">
+        <a href="#" class="logo">Music Box</a>
+        <nav>
+          <a href="#" class="link">Главная</a>
+          <a href="#" class="link">Каталог</a>
+          <a href="#page-description" class="link">Исполнители</a>
+          <a href="#contacts" class="link">Контакты</a>
+        </nav>
+      </div>
+      <input class="search-button" placeholder="ПОИСК...">
+    </div>
+  </header>
+  <main>
+    <div id="page-description" class="main flex flex-column flex-wrap white">
+      <div class="container flex flex-column main-artist">
+        <h1>Morten Harket</h1>
+        <p class="main-artist-subscribers">24 875 поклонников</p>
+        <div class="flex flex-wrap main-artist-buttons">
+          <div class="btn flex align-center main-artist-buttons-mix">
+            <img class="icon" src="images/play-button.svg" alt="Play">
+            <a href="#">Микс</a>
+          </div>
+          <div class="btn flex align-center main-artist-buttons-favorites">
+            <img class="icon" src="images/heart.svg" alt="Favorites">
+            <a href="#">В избранное</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
 </body>
 
 </html>
