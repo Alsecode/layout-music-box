@@ -21,6 +21,10 @@
   background-size: cover;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #cacaca;
   font-size: 18px;
@@ -28,6 +32,11 @@ body {
   line-height: 1.5;
 
   background-color: $black;
+}
+
+a {
+  color: $grey;
+  text-decoration: none;
 }
 
 .container {
@@ -65,6 +74,13 @@ body {
   flex-wrap: wrap;
 }
 
+.btn {
+  text-transform: uppercase;
+
+  border: 0;
+  border-radius: 5px;
+}
+
 .h2-heading {
   margin-bottom: 48px;
   padding-top: 100px;
@@ -87,6 +103,13 @@ h2 {
 h3 {
   font-size: $h3;
   line-height: 45px;
+}
+
+h4 {
+  font-size: $h4;
+  line-height: 27px;
+
+  @include heading;
 }
 
 a:hover {
