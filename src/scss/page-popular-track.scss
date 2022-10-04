@@ -1,0 +1,38 @@
+.popular {
+
+  font-size: 12.8px;
+  color: $light-grey;
+
+  &-catalog {
+    margin-top: 48px;
+    row-gap: 25px;
+  }
+
+  &-track {
+    width: 50%;
+
+    .track-image {
+      width: 55px;
+      height: 55px;
+      padding-right: 15px;
+    }
+
+    .track-name {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .track-duration {
+      margin-left: auto;
+      margin-right: 50px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .popular {
+    &-track {
+      width: 100%;
+    }
+  }
+}
