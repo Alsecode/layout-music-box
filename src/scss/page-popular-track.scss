@@ -1,7 +1,7 @@
 .popular {
+  color: $light-grey;
 
   font-size: 12.8px;
-  color: $light-grey;
 
   &-catalog {
     margin-top: 48px;
@@ -18,13 +18,13 @@
     }
 
     .track-name {
-      text-transform: uppercase;
       font-weight: bold;
+      text-transform: uppercase;
     }
 
     .track-duration {
-      margin-left: auto;
       margin-right: 50px;
+      margin-left: auto;
     }
   }
 }

@@ -2,13 +2,14 @@
   @include image("Morten Harket.png");
 
   &-artist {
+
+    width: 1200px;
     padding-top: 250px;
     padding-bottom: 225px;
 
-    width: 1200px;
-
     &-subscribers {
       margin: 16px 0 48px;
+
       font-size: 16px;
     }
 
@@ -16,16 +17,20 @@
       gap: 24px;
 
       &-mix {
-        padding: 20px 30px;
         width: 140px;
+        padding: 20px 30px;
+
         font-size: 12.8px;
+
         background-color: $purple;
       }
 
       &-favorites {
-        padding: 20px 30px;
         width: 140px;
+        padding: 20px 30px;
+
         font-size: 12.8px;
+
         background-color: $light-brown;
       }
 
@@ -33,6 +38,7 @@
         width: 20px;
         height: 20px;
         padding-right: 16px;
+
         filter: invert(100%);
       }
     }
