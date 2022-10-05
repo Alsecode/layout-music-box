@@ -67,6 +67,7 @@ a {
 .btn {
   text-transform: uppercase;
 
+  cursor: pointer;
   border: 0;
   border-radius: 5px;
 }
@@ -81,8 +82,6 @@ a {
 }
 
 h1 {
-  width: calc(100% - 40px);
-
   font-size: $h1;
   line-height: 90px;
 
@@ -90,8 +89,6 @@ h1 {
 }
 
 h2 {
-  width: calc(100% - 40px);
-
   font-size: $h2;
   line-height: 57px;
 

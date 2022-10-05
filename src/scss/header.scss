@@ -62,7 +62,6 @@ header {
         align-items: flex-start;
         font-weight: bold;
         gap: 17px;
-        width: calc(100% - 40px);
       }
 
       nav {
@@ -74,7 +73,6 @@ header {
 
       .link {
         line-height: 13px;
-        margin-right: 0;
       }
     }
   }
