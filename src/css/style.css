@@ -169,7 +169,7 @@ header .main-container .search-button {
 @media (max-width: 850px) {
   .search-button {
     width: 100%;
-    margin-top: 18px;
+    margin-top: 2px;
   }
 }
 @media (max-width: 570px) {
@@ -182,7 +182,7 @@ header .main-container .search-button {
     width: max-content;
     display: flex;
     flex-direction: column;
-    margin-top: 17px;
+    margin: 16px 0;
   }
 }
 .bg-gradient {
@@ -299,12 +299,10 @@ header .main-container .search-button {
     margin-top: 16px;
   }
   .banner-access {
-    min-width: 100%;
+    width: calc(100% - 40px);
   }
   .banner-access * {
     grid-column: span 2;
-    margin-right: 20px;
-    margin-left: 20px;
   }
 }
 .cards {
