@@ -554,5 +554,37 @@ header .main-container .search-button {
     height: 137px;
   }
 }
+.similar {
+  padding-bottom: 100px;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.similar-catalog {
+  margin-top: 48px;
+  row-gap: 25px;
+  column-gap: 50px;
+}
+.similar-item {
+  text-align: center;
+}
+.similar-item .similar-image {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 12px;
+}
+.similar-item .similar-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 890px) {
+  .similar-item {
+    width: 137px;
+  }
+  .similar-item .similar-image {
+    width: 137px;
+    height: 137px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
