@@ -62,12 +62,14 @@ header {
 @media (max-width: 570px) {
   .navigation {
     flex-direction: column;
+    gap: 3px;
+
+    font-weight: bold;
   }
 
   nav {
     width: max-content;
     display: flex;
-    gap: 3px;
     flex-direction: column;
     margin-top: 17px;
   }
