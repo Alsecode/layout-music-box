@@ -26,6 +26,7 @@ body {
 a {
   color: $grey;
   text-decoration: none;
+  width: max-content;
 }
 
 .container {
@@ -75,7 +76,13 @@ a {
   padding-top: 100px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 h1 {
+  width: 100%;
+
   font-size: $h1;
   line-height: 90px;
 
@@ -83,6 +90,8 @@ h1 {
 }
 
 h2 {
+  width: 100%;
+
   font-size: $h2;
   line-height: 57px;
 
