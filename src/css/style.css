@@ -135,22 +135,16 @@ header {
 header .main-container {
   justify-content: space-between;
 }
-header .main-container .logo {
-  position: relative;
-  margin-right: 90px;
-  margin-left: 40px;
-  text-transform: uppercase;
+header .main-container .navigation {
+  justify-content: space-between;
 }
-header .main-container .logo::before {
-  position: absolute;
-  top: -5px;
-  left: -40px;
+header .main-container .logo {
+  margin-right: 90px;
+}
+header .main-container .logo-image {
   width: 24px;
   height: 24px;
-  content: "";
-  background-image: url("../images/logo.svg");
-  background-position: center;
-  background-size: cover;
+  margin-right: 16px;
 }
 header .main-container .link {
   margin-right: 24px;
@@ -169,20 +163,20 @@ header .main-container .search-button {
 @media (max-width: 850px) {
   .search-button {
     width: 100%;
-    margin-top: 2px;
+    margin-top: 16px;
   }
 }
 @media (max-width: 570px) {
   .navigation {
     flex-direction: column;
-    gap: 3px;
+    align-items: flex-start;
     font-weight: bold;
+    gap: 16px;
   }
   nav {
     width: max-content;
     display: flex;
     flex-direction: column;
-    margin: 16px 0;
   }
 }
 .bg-gradient {
