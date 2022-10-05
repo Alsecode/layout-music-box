@@ -292,8 +292,8 @@ header .main-container .search-button {
 }
 
 @media (max-width: 600px) {
-  .banner {
-    padding-top: 250px;
+  .banner h1 {
+    margin-top: 50px;
   }
   .banner-offer {
     margin-top: 16px;

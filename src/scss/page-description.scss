@@ -58,7 +58,9 @@
 
 @media (max-width: 600px) {
   .banner {
-    padding-top: 250px;
+    h1 {
+      margin-top: 50px;
+    }
 
     &-offer {
       margin-top: 16px;
