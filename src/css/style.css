@@ -178,9 +178,11 @@ header .main-container .search-button {
     display: flex;
     flex-direction: column;
     gap: 3px;
+    margin-left: 1px;
   }
   header .main-container .link {
-    line-height: 12.89px;
+    line-height: 13px;
+    margin-right: 0;
   }
 }
 .bg-gradient {
