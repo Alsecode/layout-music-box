@@ -77,7 +77,7 @@ a {
 }
 
 h1 {
-  width: 100%;
+  width: calc(100% - 40px);
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-  width: 100%;
+  width: calc(100% - 40px);
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
@@ -179,6 +179,7 @@ header .main-container .search-button {
   nav {
     width: max-content;
     display: flex;
+    gap: 3px;
     flex-direction: column;
     margin-top: 17px;
   }

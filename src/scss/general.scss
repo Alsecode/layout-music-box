@@ -81,7 +81,7 @@ a {
 }
 
 h1 {
-  width: 100%;
+  width: calc(100% - 40px);
 
   font-size: $h1;
   line-height: 90px;
@@ -90,7 +90,7 @@ h1 {
 }
 
 h2 {
-  width: 100%;
+  width: calc(100% - 40px);
 
   font-size: $h2;
   line-height: 57px;
