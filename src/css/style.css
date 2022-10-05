@@ -177,9 +177,10 @@ header .main-container .search-button {
     width: max-content;
     display: flex;
     flex-direction: column;
+    gap: 3px;
   }
   header .main-container .link {
-    margin-right: 0;
+    line-height: 12.89px;
   }
 }
 .bg-gradient {

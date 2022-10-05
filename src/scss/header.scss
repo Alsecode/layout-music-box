@@ -67,10 +67,11 @@ header {
         width: max-content;
         display: flex;
         flex-direction: column;
+        gap: 3px;
       }
 
       .link {
-        margin-right: 0;
+        line-height: 12.89px;
       }
     }
   }
