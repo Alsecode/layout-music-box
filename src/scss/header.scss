@@ -48,7 +48,8 @@ header {
 @media (max-width: 850px) {
   .search-button {
     width: 100%;
-    margin-top: 16px;
+    margin-top: 18px;
+    line-height: 15px;
   }
 }
 
@@ -60,7 +61,8 @@ header {
         flex-direction: column;
         align-items: flex-start;
         font-weight: bold;
-        gap: 16px;
+        gap: 17px;
+        width: max-content;
       }
 
       nav {
