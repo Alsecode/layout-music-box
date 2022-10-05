@@ -526,5 +526,33 @@ header .main-container .search-button {
     width: 100%;
   }
 }
+.discography {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.discography-catalog {
+  margin-top: 48px;
+  row-gap: 25px;
+  column-gap: 50px;
+}
+.discography-item .album-image {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 12px;
+}
+.discography-item .album-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 890px) {
+  .discography-item {
+    width: 137px;
+  }
+  .discography-item .album-image {
+    width: 137px;
+    height: 137px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
