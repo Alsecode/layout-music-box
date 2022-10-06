@@ -298,7 +298,7 @@ header .main-container .search-button {
     margin-top: 50px;
   }
   .banner-offer {
-    margin-top: 16px;
+    margin: 0 16px;
   }
   .banner-access {
     width: 100%;
