@@ -255,7 +255,6 @@ header .main-container .search-button {
   background-size: cover;
 }
 .banner-offer {
-  width: calc(100% - 40px);
   margin: 31px 20px 16px;
   font-size: 16px;
 }
@@ -298,7 +297,8 @@ header .main-container .search-button {
     margin-top: 50px;
   }
   .banner-offer {
-    margin: 0 16px;
+    margin: 16px 0;
+    text-align: center;
   }
   .banner-access {
     width: 100%;
