@@ -67,8 +67,7 @@
     }
 
     &-access {
-
-      width: calc(100% - 40px);
+      width: 100%;
 
       * {
         grid-column: span 2;

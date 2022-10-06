@@ -267,7 +267,7 @@ header .main-container .search-button {
   padding: 0;
 }
 .banner-access-name, .banner-access-email {
-  min-width: 246px;
+  min-width: 248px;
   min-height: 46px;
   padding: 0;
   padding-left: 21px;
@@ -299,7 +299,7 @@ header .main-container .search-button {
     margin-top: 16px;
   }
   .banner-access {
-    width: calc(100% - 40px);
+    width: 100%;
   }
   .banner-access * {
     grid-column: span 2;
