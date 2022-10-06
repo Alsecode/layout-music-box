@@ -1,18 +1,21 @@
 .cards {
+  display: flex;
+  flex-wrap: wrap;
   gap: 50px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
 
   color: $white;
 
   .card {
     min-width: 318px;
-    padding: 0 1.5rem;
+    padding: 1.5rem;
 
     border-radius: 1rem;
 
     &-name {
-      margin-top: 24px;
-
-      font-size: 24px;
+      font-weight: normal;
       text-transform: uppercase;
     }
 
@@ -23,7 +26,7 @@
 
     &-price {
       margin-top: 180px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
 
       font-size: 32px;
       text-transform: uppercase;
@@ -38,19 +41,25 @@
     }
 
     &-button {
-      min-width: 272px;
-      padding: 21px;
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 30px;
 
       color: $white;
       font-size: 16px;
       text-align: center;
+      text-transform: uppercase;
 
       background-color: transparent;
+      border: 0;
       border: 1px solid $white;
+      border-radius: 5px;
     }
 
     &-description {
-      margin: 64px 0;
+      margin-top: 64px;
+      margin-bottom: 40px;
 
       font-size: 12.8px;
       text-align: center;
