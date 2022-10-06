@@ -27,21 +27,13 @@
 
     &-price {
       margin-bottom: 40px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-
-      &-count {
-        display: inline-block;
-        margin-right: 16px;
-        font-size: 64px;
-        line-height: 64px;
-      }
+      font-size: 64px;
+      line-height: 64px;
 
       &-currency {
-        display: inline-block;
         font-size: 32px;
         line-height: 48px;
+        vertical-align: super;
         text-transform: uppercase;
       }
     }
@@ -86,8 +78,6 @@
 }
 
 .extra-info {
-
-
   font-size: 16px;
   text-align: center;
 }
