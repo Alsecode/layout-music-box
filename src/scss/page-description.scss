@@ -14,8 +14,8 @@
 
   &-access {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
+    column-gap: 24px;
     min-height: 50px;
     padding: 0;
     max-width: 570px;
@@ -26,7 +26,7 @@
       min-width: 248px;
       min-height: 46px;
       padding: 0;
-      padding-left: 21px;
+      padding-left: 20px;
 
       color: $white;
 
@@ -69,6 +69,11 @@
 
     &-access {
       width: 100%;
+
+      &-name,
+      &-email {
+        margin-bottom: 24px;
+      }
 
       * {
         grid-column: span 2;
