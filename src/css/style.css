@@ -180,7 +180,7 @@ header .main-container .search-button {
     gap: 3px;
   }
   header .main-container .link {
-    line-height: 13px;
+    line-height: 13.5px;
   }
 }
 .bg-gradient {
@@ -260,8 +260,8 @@ header .main-container .search-button {
 }
 .banner-access {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
-  column-gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
   min-height: 50px;
   padding: 0;
   max-width: 570px;
@@ -302,9 +302,6 @@ header .main-container .search-button {
   }
   .banner-access {
     width: 100%;
-  }
-  .banner-access-name, .banner-access-email {
-    margin-bottom: 24px;
   }
   .banner-access * {
     grid-column: span 2;
