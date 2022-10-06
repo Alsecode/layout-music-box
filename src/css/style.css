@@ -323,7 +323,7 @@ header .main-container .search-button {
 }
 .cards {
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
   margin-bottom: 40px;
   color: #fff;
 }
@@ -342,9 +342,12 @@ header .main-container .search-button {
   justify-content: flex-start;
 }
 .cards .card-price {
+  margin: 0;
+  padding: 0;
+  border: none;
   margin-bottom: 40px;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 59px;
 }
 .cards .card-price-currency {
   font-size: 32px;
