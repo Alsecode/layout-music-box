@@ -83,3 +83,11 @@
   font-size: 16px;
   text-align: center;
 }
+
+@media (max-width: 850px) {
+  .cards {
+    .card {
+      padding-top: 1rem;
+    }
+  }
+}

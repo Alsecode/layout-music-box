@@ -396,6 +396,11 @@ header .main-container .search-button {
   text-align: center;
 }
 
+@media (max-width: 850px) {
+  .cards .card {
+    padding-top: 1rem;
+  }
+}
 .news {
   gap: 65px;
 }
