@@ -285,10 +285,10 @@ header .main-container .search-button {
 .banner-access-button {
   grid-column: span 2;
   min-height: 15px;
-  padding: 21px;
+  padding: 20px 30px;
   color: #fff;
-  font-size: 13.3px;
-  line-height: 15px;
+  font-size: 13px;
+  line-height: 1.5;
   background-color: #34c176;
 }
 
