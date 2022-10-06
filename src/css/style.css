@@ -177,7 +177,6 @@ header .main-container .search-button {
     gap: 16px;
   }
   header .main-container ul {
-    display: flex;
     flex-direction: column;
   }
   header .main-container .link {
