@@ -329,7 +329,7 @@ header .main-container .search-button {
   color: #fff;
 }
 .cards .card {
-  min-width: 315px;
+  min-width: 318px;
   padding: 1.5rem;
   border-radius: 1rem;
 }
@@ -444,7 +444,7 @@ header .main-container .search-button {
     max-width: 530px;
   }
   .news-item-info .news-body-heading {
-    margin-bottom: 16px;
+    font-size: 16px;
   }
   .news-item:nth-child(2) {
     flex-wrap: wrap-reverse;
