@@ -145,6 +145,9 @@ header .main-container .logo-image {
   height: 24px;
   margin-right: 16px;
 }
+header .main-container li {
+  line-height: 16px;
+}
 header .main-container .link {
   margin-right: 24px;
 }
@@ -173,14 +176,12 @@ header .main-container .search-button {
     font-weight: bold;
     gap: 16px;
   }
-  header .main-container nav {
-    width: max-content;
+  header .main-container ul {
     display: flex;
     flex-direction: column;
-    gap: 3px;
   }
   header .main-container .link {
-    line-height: 13.5px;
+    line-height: 12.8px;
   }
 }
 .bg-gradient {

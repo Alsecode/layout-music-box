@@ -26,6 +26,10 @@ header {
       }
     }
 
+    li {
+      line-height: 16px;
+    }
+
     .link {
       margin-right: 24px;
     }
@@ -64,15 +68,13 @@ header {
         gap: 16px;
       }
 
-      nav {
-        width: max-content;
+      ul {
         display: flex;
         flex-direction: column;
-        gap: 3px;
       }
 
       .link {
-        line-height: 13.5px;
+        line-height: 12.8px;
       }
     }
   }
