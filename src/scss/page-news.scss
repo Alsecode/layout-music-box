@@ -18,6 +18,7 @@
           text-transform: none;
           font-weight: normal;
           margin-bottom: 30px;
+          text-transform: capitalize;
         }
 
         &-text {
@@ -36,7 +37,6 @@
 
           &-company-name {
             color: $orange;
-            text-transform: capitalize;
           }
         }
 
@@ -60,6 +60,12 @@
 
     &-info {
       max-width: 530px;
+
+      .news-body {
+        &-heading {
+          margin-bottom: 16px;
+        }
+      }
     }
 
     &:nth-child(2) {

@@ -8,7 +8,7 @@
   color: $white;
 
   .card {
-    min-width: 318px;
+    min-width: 315px;
     padding: 1.5rem;
 
     border-radius: 1rem;
@@ -80,12 +80,4 @@
 .extra-info {
   font-size: 16px;
   text-align: center;
-}
-
-@media (max-width: 570px) {
-  .cards .card-name {
-    margin-top: 16px;
-
-    font-size: 16px;
-  }
 }
