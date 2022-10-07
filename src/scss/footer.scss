@@ -11,7 +11,7 @@
 
   &-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     row-gap: 30px;
     column-gap: 40px;
     padding-top: 62px;
@@ -64,17 +64,17 @@
 
 @media (max-width: 850px) {
   .footer {
-    &-links {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    &-links {}
   }
 }
 
 @media (max-width: 600px) {
   .footer {
     &-links {
-      grid-template-columns: 1fr;
+
       padding-bottom: 72px;
+      row-gap: 30px;
+      grid-row-gap: 30px;
     }
 
     &-nav-list {
