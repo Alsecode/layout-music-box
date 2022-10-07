@@ -318,14 +318,15 @@ header .main-container .search-button {
   }
 }
 .cards {
-  gap: 50px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(366px, 1fr));
   margin-bottom: 40px;
   color: #fff;
 }
 .cards .card {
-  box-sizing: border-box;
-  width: 366.6666666667px;
   padding: 1.5rem;
+  max-width: 20rem;
   border-radius: 1rem;
 }
 .cards .card-name {
@@ -358,10 +359,7 @@ header .main-container .search-button {
   padding: 20px 30px;
   color: #fff;
   font-size: 16px;
-  text-align: center;
   text-transform: uppercase;
-  background-color: transparent;
-  border: 0;
   border: 1px solid #fff;
   border-radius: 5px;
 }
@@ -369,22 +367,24 @@ header .main-container .search-button {
   margin-top: 64px;
   margin-bottom: 40px;
   font-size: 12.8px;
-  text-align: center;
 }
 .cards .free-sub {
   background-image: url("../images/subscribe_1.png");
   background-position: center;
   background-size: cover;
+  border-radius: 1rem;
 }
 .cards .standard-sub {
   background-image: url("../images/subscribe_2.png");
   background-position: center;
   background-size: cover;
+  border-radius: 1rem;
 }
 .cards .premium-sub {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+  border-radius: 1rem;
 }
 
 .extra-info {

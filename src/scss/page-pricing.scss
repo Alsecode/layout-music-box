@@ -1,15 +1,15 @@
 .cards {
-
-  gap: 50px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(366px, 1fr));
 
   margin-bottom: 40px;
 
   color: $white;
 
   .card {
-    box-sizing: border-box;
-    width: calc(1100px / 3);
     padding: 1.5rem;
+    max-width: 20rem;
 
     border-radius: 1rem;
 
@@ -49,11 +49,9 @@
 
       color: $white;
       font-size: 16px;
-      text-align: center;
+
       text-transform: uppercase;
 
-      background-color: transparent;
-      border: 0;
       border: 1px solid $white;
       border-radius: 5px;
     }
@@ -63,20 +61,22 @@
       margin-bottom: 40px;
 
       font-size: 12.8px;
-      text-align: center;
     }
   }
 
   .free-sub {
     @include image("subscribe_1.png");
+    border-radius: 1rem;
   }
 
   .standard-sub {
     @include image("subscribe_2.png");
+    border-radius: 1rem;
   }
 
   .premium-sub {
     @include image("subscribe_3.png");
+    border-radius: 1rem;
   }
 }
 
