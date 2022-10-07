@@ -261,8 +261,6 @@ header .main-container .search-button {
 @media (max-width: 600px) {
   .footer-links {
     padding-bottom: 72px;
-    row-gap: 30px;
-    grid-row-gap: 30px;
   }
   .footer-nav-list {
     flex-direction: column;
@@ -549,21 +547,21 @@ header .main-container .search-button {
 .popular-catalog {
   margin-top: 48px;
   row-gap: 25px;
+  column-gap: 50px;
 }
 .popular-track {
-  width: 50%;
+  gap: 15px;
+  width: calc(50% - 25px);
 }
 .popular-track .track-image {
   width: 55px;
   height: 55px;
-  padding-right: 15px;
 }
 .popular-track .track-name {
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 12.8px;
+  line-height: 1.5;
 }
 .popular-track .track-duration {
-  margin-right: 50px;
   margin-left: auto;
 }
 
@@ -582,13 +580,15 @@ header .main-container .search-button {
   row-gap: 25px;
 }
 .discography-item .album-image {
+  display: block;
   width: 250px;
   height: 250px;
-  padding-bottom: 12px;
 }
 .discography-item .album-name {
-  font-weight: bold;
+  margin-top: 18px;
+  text-transform: capitalize;
   font-size: 18px;
+  line-height: 27px;
 }
 
 @media (max-width: 890px) {
@@ -601,7 +601,6 @@ header .main-container .search-button {
   }
 }
 .similar {
-  padding-bottom: 100px;
   color: #e0e0e0;
   font-size: 16px;
 }
@@ -614,13 +613,15 @@ header .main-container .search-button {
   text-align: center;
 }
 .similar-item .similar-image {
+  display: block;
   width: 250px;
   height: 250px;
-  padding-bottom: 12px;
 }
 .similar-item .similar-name {
-  font-weight: bold;
+  margin-top: 18px;
+  text-transform: capitalize;
   font-size: 18px;
+  line-height: 27px;
 }
 
 @media (max-width: 890px) {

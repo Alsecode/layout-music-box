@@ -1,6 +1,4 @@
 .similar {
-  padding-bottom: 100px;
-
   color: $light-grey;
   font-size: 16px;
 
@@ -15,14 +13,16 @@
     text-align: center;
 
     .similar-image {
+      display: block;
       width: 250px;
       height: 250px;
-      padding-bottom: 12px;
     }
 
     .similar-name {
-      font-weight: bold;
+      margin-top: 18px;
+      text-transform: capitalize;
       font-size: 18px;
+      line-height: 27px;
     }
   }
 }

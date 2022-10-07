@@ -6,24 +6,24 @@
   &-catalog {
     margin-top: 48px;
     row-gap: 25px;
+    column-gap: 50px;
   }
 
   &-track {
-    width: 50%;
+    gap: 15px;
+    width: calc(50% - 25px);
 
     .track-image {
       width: 55px;
       height: 55px;
-      padding-right: 15px;
     }
 
     .track-name {
-      font-weight: bold;
-      text-transform: uppercase;
+      font-size: 12.8px;
+      line-height: 1.5;
     }
 
     .track-duration {
-      margin-right: 50px;
       margin-left: auto;
     }
   }

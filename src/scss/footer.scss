@@ -62,19 +62,10 @@
   }
 }
 
-@media (max-width: 850px) {
-  .footer {
-    &-links {}
-  }
-}
-
 @media (max-width: 600px) {
   .footer {
     &-links {
-
       padding-bottom: 72px;
-      row-gap: 30px;
-      grid-row-gap: 30px;
     }
 
     &-nav-list {

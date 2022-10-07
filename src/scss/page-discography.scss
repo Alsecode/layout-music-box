@@ -12,14 +12,16 @@
 
   &-item {
     .album-image {
+      display: block;
       width: 250px;
       height: 250px;
-      padding-bottom: 12px;
     }
 
     .album-name {
-      font-weight: bold;
+      margin-top: 18px;
+      text-transform: capitalize;
       font-size: 18px;
+      line-height: 27px;
     }
   }
 }
