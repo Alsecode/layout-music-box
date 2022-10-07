@@ -323,11 +323,12 @@ header .main-container .search-button {
 }
 .cards {
   flex-wrap: wrap;
+  gap: 50px;
   margin-bottom: 40px;
   color: #fff;
 }
 .cards .card {
-  min-width: calc((100% - 244px) / 3);
+  max-width: 20rem;
   padding: 1.5rem;
   border-radius: 1rem;
 }
