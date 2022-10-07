@@ -88,11 +88,6 @@ a {
   border-radius: 5px;
 }
 
-.h2-heading {
-  margin-bottom: 48px;
-  padding-top: 100px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -490,6 +485,7 @@ header .main-container .search-button {
   border-radius: 32px;
 }
 .mobile-app-picture {
+  display: block;
   margin: 0 auto;
 }
 
