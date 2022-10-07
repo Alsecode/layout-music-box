@@ -3,11 +3,9 @@
   &-description {
     max-width: 600px;
 
-    &-text {
-      padding: 16px 0;
+    font-size: 16px;
 
-      font-size: 16px;
-    }
+
 
     &-button {
       display: block;
@@ -32,11 +30,6 @@
 
 @media (max-width: 850px) {
   .mobile-app {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-
-    &-picture {
-      margin-left: 0;
-    }
+    flex-direction: column-reverse;
   }
 }
