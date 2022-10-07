@@ -219,8 +219,8 @@ header .main-container .search-button {
 .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 30px;
-  grid-column-gap: 40px;
+  row-gap: 30px;
+  column-gap: 40px;
   padding-top: 62px;
   padding-bottom: 70px;
 }
@@ -261,13 +261,12 @@ header .main-container .search-button {
 @media (max-width: 850px) {
   .footer-links {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
   }
 }
 @media (max-width: 600px) {
   .footer-links {
     grid-template-columns: 1fr;
-    padding-bottom: 75px;
+    padding-bottom: 72px;
   }
   .footer-nav-list {
     flex-direction: column;
