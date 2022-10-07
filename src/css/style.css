@@ -44,10 +44,6 @@ a {
   color: #fff;
 }
 
-.center {
-  text-align: center;
-}
-
 .flex {
   display: flex;
 }
@@ -328,7 +324,7 @@ header .main-container .search-button {
   color: #fff;
 }
 .cards .card {
-  max-width: 20rem;
+  min-width: calc((100% - 244px) / 3);
   padding: 1.5rem;
   border-radius: 1rem;
 }
@@ -430,12 +426,12 @@ header .main-container .search-button {
 }
 .news-item-info .news-footer .news-author {
   gap: 16px;
-  margin-bottom: 69px;
 }
 .news-item-info .news-footer .news-author-company-name {
   color: #f89202;
 }
 .news-item-info .news-footer-button {
+  display: block;
   padding: 16px 30px;
   border: 1px solid #cacaca;
 }
@@ -474,10 +470,11 @@ header .main-container .search-button {
   max-width: 600px;
 }
 .mobile-app-description-text {
-  padding: 16px 0 24px;
+  padding: 16px 0;
   font-size: 16px;
 }
 .mobile-app-description-button {
+  display: block;
   padding: 16px 40px;
   font-size: 12.8px;
   background-color: #95390c;
