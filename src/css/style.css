@@ -457,8 +457,8 @@ header .main-container .search-button {
   .news-item {
     flex-wrap: wrap;
   }
-  .news-item-picture img {
-    max-width: 530px;
+  .news-item-picture {
+    width: 100%;
   }
   .news-item-info {
     max-width: 530px;
