@@ -7,7 +7,7 @@
   color: $white;
 
   .card {
-    min-width: 317px;
+    min-width: calc((100% - 244px) / 3);
     padding: 1.5rem;
 
     border-radius: 1rem;
