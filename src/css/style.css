@@ -219,8 +219,14 @@ header .main-container .search-button {
 .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 40px;
   padding-top: 62px;
   padding-bottom: 70px;
+}
+.footer-links .nav-heading {
+  font-size: 18px;
+  line-height: 27px;
 }
 .footer-links-social-media-icons {
   column-gap: 24px;
