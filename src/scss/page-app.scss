@@ -12,6 +12,8 @@
     &-button {
       display: block;
 
+      text-transform: capitalize;
+
       padding: 16px 40px;
 
       font-size: 12.8px;
@@ -24,7 +26,7 @@
   }
 
   &-picture {
-    margin-left: 144px;
+    margin: 0 auto;
   }
 }
 
