@@ -22,7 +22,7 @@
         }
 
         &-text {
-          margin-bottom: 22px;
+          margin-bottom: 24px;
 
           font-size: 16px;
         }
@@ -66,6 +66,11 @@
         &-heading {
           font-size: 16px;
           line-height: 24px;
+          margin-bottom: 16px;
+        }
+
+        &-text {
+          margin-bottom: 16px;
         }
       }
     }
