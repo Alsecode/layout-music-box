@@ -469,7 +469,7 @@ header .main-container .search-button {
     margin-bottom: 16px;
   }
   .news-item-info .news-body-text {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   .news-item:nth-child(2) {
     flex-wrap: wrap-reverse;
