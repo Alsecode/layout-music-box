@@ -1,11 +1,11 @@
 .main {
   @include image("Morten Harket.png");
+  padding-top: 250px;
+  padding-bottom: 225px;
 
   &-artist {
 
-    width: 1200px;
-    padding-top: 250px;
-    padding-bottom: 225px;
+    width: calc(100% - 40px);
 
     &-subscribers {
       margin: 16px 0 48px;
@@ -48,7 +48,7 @@
 @media (max-width: 1240px) {
   .main {
     &-artist {
-      max-width: calc(100% - 40px);
+
       padding-top: 225px;
     }
   }

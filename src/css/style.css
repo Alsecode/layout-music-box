@@ -398,6 +398,7 @@ header .main-container .search-button {
 @media (max-width: 850px) {
   .cards .card {
     padding-top: 1rem;
+    max-width: 100%;
   }
 }
 .news {
@@ -497,11 +498,11 @@ header .main-container .search-button {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-}
-.main-artist {
-  width: 1200px;
   padding-top: 250px;
   padding-bottom: 225px;
+}
+.main-artist {
+  width: calc(100% - 40px);
 }
 .main-artist-subscribers {
   margin: 16px 0 48px;
@@ -531,7 +532,6 @@ header .main-container .search-button {
 
 @media (max-width: 1240px) {
   .main-artist {
-    max-width: calc(100% - 40px);
     padding-top: 225px;
   }
 }
