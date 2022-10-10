@@ -254,6 +254,9 @@ header .main-container .search-button {
 }
 
 @media (max-width: 600px) {
+  .footer-links {
+    padding-bottom: 75px;
+  }
   .footer-nav-list {
     flex-direction: column;
     gap: 16px;

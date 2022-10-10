@@ -64,6 +64,10 @@
 
 @media (max-width: 600px) {
   .footer {
+    &-links {
+      padding-bottom: 75px;
+    }
+
     &-nav-list {
       flex-direction: column;
       gap: 16px;
