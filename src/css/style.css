@@ -408,9 +408,6 @@ header .main-container .search-button {
 .news-item {
   gap: 50px;
 }
-.news-item-picture img {
-  max-width: 575px;
-}
 .news-item-info {
   max-width: 575px;
 }
@@ -434,6 +431,7 @@ header .main-container .search-button {
 }
 .news-item-info .news-footer .news-author-company-name {
   color: #f89202;
+  text-transform: uppercase;
 }
 .news-item-info .news-footer-button {
   display: block;

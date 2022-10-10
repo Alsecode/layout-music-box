@@ -4,9 +4,7 @@
   &-item {
     gap: 50px;
 
-    &-picture img {
-      max-width: 575px;
-    }
+    &-picture img {}
 
     &-info {
       max-width: 575px;
@@ -36,6 +34,7 @@
 
           &-company-name {
             color: $orange;
+            text-transform: uppercase;
           }
         }
 
