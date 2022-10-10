@@ -408,6 +408,9 @@ header .main-container .search-button {
 .news-item {
   gap: 50px;
 }
+.news-item-picture {
+  width: 575px;
+}
 .news-item-info {
   max-width: 575px;
 }

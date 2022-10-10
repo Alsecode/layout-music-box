@@ -4,7 +4,9 @@
   &-item {
     gap: 50px;
 
-    &-picture img {}
+    &-picture {
+      width: 575px;
+    }
 
     &-info {
       max-width: 575px;
