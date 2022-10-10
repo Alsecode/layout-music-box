@@ -10,6 +10,7 @@
   "devDependencies": {
     "htmlhint": "^1.1.0",
     "stylelint": "^14.13.0",
+    "stylelint-config-concentric-order": "^5.1.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
@@ -20,6 +21,7 @@
   "author": "Artur Makars",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^8.25.0",
     "pug-cli": "^1.0.0-alpha6"
   }
 }

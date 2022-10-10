@@ -7,8 +7,8 @@
 
   .card {
     box-sizing: border-box;
+    max-width: 366.66px;
     padding: 1.5rem;
-    max-width: calc(1100px / 3);
 
     border-radius: 1rem;
 
@@ -27,17 +27,18 @@
     &-price {
       height: 64px;
       margin: 0;
+      margin-bottom: 40px;
       padding: 0;
       border: none;
-      margin-bottom: 40px;
+
       font-size: 64px;
       line-height: 64px;
 
       &-currency {
         font-size: 32px;
         line-height: 48px;
-        vertical-align: super;
         text-transform: uppercase;
+        vertical-align: super;
       }
     }
 
@@ -47,13 +48,13 @@
       width: 100%;
       padding: 20px 30px;
 
+      border: 1px solid $white;
+      border-radius: 5px;
+
       color: $white;
       font-size: 16px;
 
       text-transform: uppercase;
-
-      border: 1px solid $white;
-      border-radius: 5px;
     }
 
     &-description {
@@ -64,22 +65,22 @@
     }
   }
 
+  .subs {
+    border-radius: 1rem;
+
+    background-position: top;
+  }
+
   .free-sub {
     @include image("subscribe_1.png");
-    background-position: top;
-    border-radius: 1rem;
   }
 
   .standard-sub {
     @include image("subscribe_2.png");
-    background-position: top;
-    border-radius: 1rem;
   }
 
   .premium-sub {
     @include image("subscribe_3.png");
-    background-position: top;
-    border-radius: 1rem;
   }
 }
 
@@ -91,8 +92,8 @@
 @media (max-width: 850px) {
   .cards {
     .card {
-      padding-top: 1rem;
       max-width: 100%;
+      padding-top: 1rem;
     }
   }
 }

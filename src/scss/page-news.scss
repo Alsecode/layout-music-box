@@ -13,11 +13,12 @@
 
       .news-body {
         &-heading {
+          margin-bottom: 30px;
+
+          font-weight: normal;
           font-size: 30px;
           line-height: 45px;
           text-transform: none;
-          font-weight: normal;
-          margin-bottom: 30px;
           text-transform: capitalize;
         }
 
@@ -65,9 +66,10 @@
 
       .news-body {
         &-heading {
+          margin-bottom: 16px;
+
           font-size: 16px;
           line-height: 24px;
-          margin-bottom: 16px;
         }
 
         &-text {

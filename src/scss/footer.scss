@@ -12,10 +12,11 @@
   &-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    row-gap: 30px;
-    column-gap: 40px;
     padding-top: 62px;
     padding-bottom: 72px;
+
+    column-gap: 40px;
+    row-gap: 30px;
 
     .nav-heading {
       font-size: 18px;

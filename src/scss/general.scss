@@ -24,9 +24,10 @@ body {
 }
 
 a {
+  width: max-content;
+
   color: $grey;
   text-decoration: none;
-  width: max-content;
 }
 
 .container {
@@ -85,11 +86,12 @@ a {
 }
 
 .btn {
+  border: 0;
+  border-radius: 5px;
+
   text-transform: uppercase;
 
   cursor: pointer;
-  border: 0;
-  border-radius: 5px;
 }
 
 .text-center {

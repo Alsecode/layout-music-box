@@ -1,25 +1,22 @@
 .mobile-app {
-
   &-description {
     max-width: 600px;
 
     font-size: 16px;
 
-
-
     &-button {
       display: block;
 
-      text-transform: capitalize;
-
       padding: 16px 40px;
-
-      font-size: 12.8px;
-
-      background-color: $light-brown;
 
       border: 0;
       border-radius: 32px;
+
+      font-size: 12.8px;
+
+      text-transform: capitalize;
+
+      background-color: $light-brown;
     }
   }
 

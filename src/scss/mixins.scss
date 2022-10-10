@@ -1,4 +1,4 @@
-@mixin heading {
+@mixin heading() {
   font-weight: bold;
   text-transform: uppercase;
 }
