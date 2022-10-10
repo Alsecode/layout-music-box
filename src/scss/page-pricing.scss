@@ -66,16 +66,19 @@
 
   .free-sub {
     @include image("subscribe_1.png");
+    background-position: top;
     border-radius: 1rem;
   }
 
   .standard-sub {
     @include image("subscribe_2.png");
+    background-position: top;
     border-radius: 1rem;
   }
 
   .premium-sub {
     @include image("subscribe_3.png");
+    background-position: top;
     border-radius: 1rem;
   }
 }

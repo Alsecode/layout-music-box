@@ -376,18 +376,21 @@ header .main-container .search-button {
   background-image: url("../images/subscribe_1.png");
   background-position: center;
   background-size: cover;
+  background-position: top;
   border-radius: 1rem;
 }
 .cards .standard-sub {
   background-image: url("../images/subscribe_2.png");
   background-position: center;
   background-size: cover;
+  background-position: top;
   border-radius: 1rem;
 }
 .cards .premium-sub {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+  background-position: top;
   border-radius: 1rem;
 }
 
