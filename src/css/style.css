@@ -443,12 +443,6 @@ header .main-container .search-button {
   font-size: 12.8px;
 }
 
-.cards .subs {
-  border-radius: 1rem;
-
-  background-position: top;
-}
-
 .cards .free-sub {
   background-image: url("../images/subscribe_1.png");
   background-position: center;
@@ -465,6 +459,12 @@ header .main-container .search-button {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+}
+
+.cards .subs {
+  border-radius: 1rem;
+
+  background-position: top;
 }
 
 .extra-info {
