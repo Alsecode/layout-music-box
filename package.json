@@ -18,5 +18,8 @@
     "surge": "^0.23.1"
   },
   "author": "Artur Makars",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
 }

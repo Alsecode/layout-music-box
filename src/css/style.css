@@ -217,7 +217,7 @@ header .main-container .search-button {
   row-gap: 30px;
   column-gap: 40px;
   padding-top: 62px;
-  padding-bottom: 70px;
+  padding-bottom: 72px;
 }
 .footer-links .nav-heading {
   font-size: 18px;
@@ -246,17 +246,14 @@ header .main-container .search-button {
   margin-bottom: 15px;
 }
 .footer-nav {
-  padding: 40px 0 50px;
-  border-top: 1px solid #cacaca;
+  padding: 40px 0 48px;
+  border-top: 1px solid #e0e0e0;
 }
 .footer-nav-list {
   column-gap: 16px;
 }
 
 @media (max-width: 600px) {
-  .footer-links {
-    padding-bottom: 72px;
-  }
   .footer-nav-list {
     flex-direction: column;
     gap: 16px;

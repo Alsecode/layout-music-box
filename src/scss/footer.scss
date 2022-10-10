@@ -15,7 +15,7 @@
     row-gap: 30px;
     column-gap: 40px;
     padding-top: 62px;
-    padding-bottom: 70px;
+    padding-bottom: 72px;
 
     .nav-heading {
       font-size: 18px;
@@ -52,9 +52,9 @@
   }
 
   &-nav {
-    padding: 40px 0 50px;
+    padding: 40px 0 48px;
 
-    border-top: 1px solid $grey;
+    border-top: 1px solid $light-grey;
 
     &-list {
       column-gap: 16px;
@@ -64,10 +64,6 @@
 
 @media (max-width: 600px) {
   .footer {
-    &-links {
-      padding-bottom: 72px;
-    }
-
     &-nav-list {
       flex-direction: column;
       gap: 16px;
