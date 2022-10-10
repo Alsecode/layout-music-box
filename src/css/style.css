@@ -342,12 +342,13 @@ header .main-container .search-button {
   justify-content: flex-start;
 }
 .cards .card-price {
+  height: 64px;
   margin: 0;
   padding: 0;
   border: none;
   margin-bottom: 40px;
   font-size: 64px;
-  line-height: 59px;
+  line-height: 64px;
 }
 .cards .card-price-currency {
   font-size: 32px;
@@ -531,7 +532,7 @@ header .main-container .search-button {
 }
 
 @media (max-width: 1240px) {
-  .main-artist {
+  .main {
     padding-top: 225px;
   }
 }

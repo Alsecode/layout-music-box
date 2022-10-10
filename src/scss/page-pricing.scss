@@ -25,12 +25,13 @@
     }
 
     &-price {
+      height: 64px;
       margin: 0;
       padding: 0;
       border: none;
       margin-bottom: 40px;
       font-size: 64px;
-      line-height: 59px;
+      line-height: 64px;
 
       &-currency {
         font-size: 32px;
