@@ -4,5 +4,4 @@ result: https://alsecode-musicbox.surge.sh,
 https://alsecode-musicbox.surge.sh/artist.html
 
 
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Alsecode/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/Alsecode/layout-designer-project-56/actions)
