@@ -2,6 +2,3 @@ layout: https://www.figma.com/file/b6AjhwQsQeSeoIteenOTIp/Hexlet-LayoutDesigner-
 
 result: https://alsecode-musicbox.surge.sh, 
 https://alsecode-musicbox.surge.sh/artist.html
-
-
-[![Actions Status](https://github.com/Alsecode/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/Alsecode/layout-designer-project-56/actions)
